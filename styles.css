@@ -1,0 +1,39 @@
+.box{
+    background-color: rgb(222, 213, 213);
+    color: black;
+    height: 60px;
+    width: 60px;
+    border: 2px solid black;
+    margin: 1px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.preview{
+    background-color: rgb(117, 157, 210);
+    color: black;
+    border: 2px solid black;
+}
+.preview_out_of_bounds{
+    background-color: rgb(233, 130, 130);
+    color: black;
+    border: 2px solid black;
+
+}
+.busy{
+    background-color: rgb(130, 233, 137);
+    color: black;
+    border: 2px solid black;
+}
+body{
+    background-color: rgb(20, 21, 26) !important;
+}
+h1, h2{
+    color: white !important;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.board_container{
+    width: calc(66px * 10);
+}
